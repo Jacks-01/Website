@@ -82,3 +82,12 @@ html {
 
 
   }
+
+.rateCat{
+  /* display: inline-block; */
+  /* position:absolute; */
+  /* text-align: right; */
+  float: right;
+
+}
+
