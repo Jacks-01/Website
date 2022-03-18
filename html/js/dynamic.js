@@ -23,4 +23,16 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
+function rateMyCat(){
+  let output = '';
+  let rating = prompt(`On a scale of 1 to 5, how cute are my cats?`)
 
+  for(let i = 0; i < rating; i = i + 1){
+
+    output = output + '<img src="html/images/cat-4" height="100px">';
+
+  }
+  
+  return document.write(output);
+
+}
